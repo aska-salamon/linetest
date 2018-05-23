@@ -1,7 +1,4 @@
-line-bot-sdk
-flask
 BeautifulSoup4==4.6.0
-requests
 alembic==0.8.9
 click==6.7            
 Flask==0.12           
