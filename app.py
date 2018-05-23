@@ -128,5 +128,5 @@ def handle_message(event):
         #event.reply_token,TextSendMessage(texttest))
 		
 import os
-if __name__ == "__main__":    
+if __name__ == '__main__':
     app.run()
