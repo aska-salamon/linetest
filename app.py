@@ -10,7 +10,7 @@ from linebot.exceptions import (
 #     MessageEvent, TextMessage, TextSendMessage, ImageSendMessage
 # )
 from linebot.models import *
-# add food
+
 import random
 food1=['唯斯','夏一跳','美好','劉姊姊','阿胖','小蘋果','永和豆漿','小餐車','美富美','美而美','薯霸','麥味登','阿婆','饅頭肉排蛋','阿根','吃自己','甲~土~豆~~','吃土','不告訴你','你有障礙我也幫不了你']
 food2=['火雞肉飯','中華麵館','鐵皮屋','阿茂','鳳麟','超商','津香','金拱門','和味','大中華','昇一','四海','八方','牛肉麵','臭豆腐','吃自己','甲~土~豆~~','吃土','不告訴你','你有障礙我也幫不了你']
