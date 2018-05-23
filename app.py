@@ -33,7 +33,7 @@ app = Flask(__name__)
 line_bot_api = LineBotApi('Dd7bX0CI0Z9Eq0AdVeR0j1yshQ+gtPdNepIH/16gvMuyL6uCFrmhAdNlmHuDOlpgl75xeWc+g9UvswshAOS3oj7WK9HliKZe3U1hKpIlP+iuS2e2SO1rm90BPukEWjA4irHtqjqNS6wpdTnfAbJk1AdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
 handler = WebhookHandler('f5e1ceddadbb1c5939fbbb09e3de1bd4')
-
+#
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
 def callback():
