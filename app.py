@@ -30,7 +30,7 @@ food4=['永豆','滷味','塊樂','蒜翻天','滿美','開源社','阿力','吃
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('5r1XgrI72fNGWqfw / iQFR9qv5LLETzzQGzuYZzRCKvBteYu1 + yDyi + h1T1Xu9KjKl75xeWc + g9UvswshAOS3oj7WK9HliKZe3U1hKpIlP + gndBRMaM92ZMWZ8vriKMxbBgDtiZmwXsGmEhJmFtLtegdB04t89 / 1O / w1cDnyilFU =')
+line_bot_api = LineBotApi('5r1XgrI72fNGWqfw/iQFR9qv5LLETzzQGzuYZzRCKvBteYu1+yDyi+h1T1Xu9KjKl75xeWc+g9UvswshAOS3oj7WK9HliKZe3U1hKpIlP+gndBRMaM92ZMWZ8vriKMxbBgDtiZmwXsGmEhJmFtLtegdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
 handler = WebhookHandler('f5e1ceddadbb1c5939fbbb09e3de1bd4')
 
