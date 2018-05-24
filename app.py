@@ -110,7 +110,7 @@ def handle_message(event):
 	elif text == 'stock' or text == 'Stock' or text == '股票':
 		line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=stock_crawler(2330)) )
+        TextSendMessage(text=stock_crawler(2801)) )
 		
 	elif text == 'currency' or text == 'Currency' or text == '匯率':
 		line_bot_api.reply_message(
